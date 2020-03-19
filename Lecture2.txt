@@ -1,0 +1,22 @@
+##Java Type Casting: Type casting is when you assign a value of one primitive data type to another type.
+In Java, there are two types of casting:
+
+Widening Casting (automatically) - converting a smaller type to a larger type size
+byte -> short -> char -> int -> long -> float -> double
+
+Narrowing Casting (manually) - converting a larger type to a smaller size type
+double -> float -> long -> int -> char -> short -> byte
+
+##Java Operators: Operators are used to perform operations on variables and values.
+In Java operators are divided into the following groups:
+
+1. Arithmetic operators (+, -, *, %, /, ++, --)
+2. Assignment operators (=, + =, - =, / =, % =,  =, | =, ^ =, >> =,<< =)
+3. Comparison operators(= =, ! =, >, <, > =, < =) 
+4. Logical operators ( &&, ||, !)
+5. Bitwise operators (&, |)
+
+##import: import is a keyword which is used to access user defined packages and bulit-in packages in code.
+Java packages are Built-in and User defined
+Built-in Package are Existing Java package for example java.lang, java.util etc.
+user defined are package created by user to categorize their project's classes and interface.
