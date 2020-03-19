@@ -1,0 +1,21 @@
+Discription on simple code syntax:
+
+class and classname: 
+As we know Java is object oriented programming language (OOPs). An object cannot exist without a class and class is nothing but a blueprint on the basis how an object is created. Always a class name should start with capital letter.
+Eg: class Employee{}
+
+public static void main(String a[]): 
+1) Every Java program requires a "method" to run the code. 
+2) The default method is "main()" and every method returns a value and this main method returns null hence it is "void". main() method says that it will do work but it asks for a parameter in the form of "string array"
+3)Java language works on objects. The objects works with methods. Hence there are two types of methods in java:
+a. static method : It belongs to class
+b. non-static method : It belongs to objects
+What we use is the main() method belongs to entire class so we use "static" method
+4) We need to access the main() method in whole program so we use a access specifier named "public".
+
+Dispaly output:
+To display any output like string/char/int/float/long basically we require a method called "print". This print method belongs to an object called "out". Finally the out object is inside a class called "System".
+
+Eg: System.out.print("hello");
+
+Note: In Java all class names start with capital letter and here String is a class in Java. So the point to be noted is whenever you declare a string variable make sure that the data type String starts with capital letter.
