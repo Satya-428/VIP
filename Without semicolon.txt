@@ -1,0 +1,10 @@
+// Without semicolon
+
+public class Withoutsemicolon {
+	public static void main(String args[]){
+		while(System.out.printf("MASTEK")==null){
+			
+		}
+	}
+
+}
