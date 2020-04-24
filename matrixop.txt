@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+public class matrixop {
+	
+		public static void main(String[] args) {
+		    int i,j;
+		    Scanner s=new Scanner(System.in);
+		    int n=s.nextInt();
+		    int m=s.nextInt();
+		    int a[][]=new int[n][m];
+		    int c[][]=new int[n][m];
+			for(i=0;i<n;i++){
+			    for(j=0;j<m;j++){
+			        a[i][j]=s.nextInt();
+			    }
+			}
+			System.out.println("the original matrix is");
+			for(i=0;i<n;i++){
+			    for(j=0;j<m;j++){
+			        System.out.print(a[i][j]);
+			    }
+			    System.out.println();
+			}
+			System.out.println("the transpose matrix is");
+			for(i=0;i<n;i++){
+			    for(j=0;j<m;j++){
+			        System.out.print(a[j][i]);
+			    }
+			    System.out.println();
+			}
+			for(i=0;i<n;i++){
+			    for(j=0;j<m;j++){
+			        c[i][j]=a[i][j]+a[j][i];
+	              }
+			}
+			System.out.println("the addition of two matrices is:");
+			for(i=0;i<n;i++){
+			    for(j=0;j<m;j++){
+			        System.out.print(c[i][j]);
+			    }
+			    System.out.println();
+			}
+			}
+	}
