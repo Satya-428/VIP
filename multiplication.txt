@@ -1,0 +1,15 @@
+package satya;
+import java.util.*;
+public class Multiplicationtable {
+	public static void main (String args[]){
+		int n,i;
+		Scanner s=new Scanner(System.in);
+		n=s.nextInt();
+		for( i = 1; i <= 20; ++i)
+        {
+            System.out.printf("%d * %d = %d \n", n, i, n * i);
+        }
+		
+	}
+
+}
